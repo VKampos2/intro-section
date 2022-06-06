@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  background-color: hsl(0, 0%, 98%)
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 5% 5% 5% 0;
+}
+
+p {
+  font-size: 1.125rem;
+  color: hsl(0, 0%, 41%);
+  margin-bottom: 0;
+}
+
+/* navbar */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0 3% 0 2%;
+}
+
+.nav-item {
+  font-size: 0.8rem;
+}
+
+.nav-item:hover {
+  font-weight: bold;
+}
+
+.register {
+  border-radius: 10px;
+}
+
+.register:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+
+.icon-features {
+  padding: 0 5%;
+  text-align: left;
+}
+
+.dropdown-item {
+  color: hsl(0, 0%, 41%);
+  font-size: 0.7rem;
+}
+
+.fa-solid {
+  transition: .7s ease-in-out
+}
+
+.fa-solid:hover {
+  transform: rotate(180deg);
+}
+
+.sidebar {
+  display: flex;
+  width: 100%;
+}
+
+/* title section */
+.conteiner-fluid {
+  margin: 0;
+  text-align: center;
+}
+
+.title-zone {
+  margin-top: 5%;
+}
+
+.title-text {
+  padding: 5% 0 0 16%;
+  text-align: left;
+}
+
+.learn-button {
+  color: white;
+  background-color: Black;
+}
+
+.learn-button:hover {
+  background-color: white;
+}
+
+.image-desktop {
+  padding-left: 0;
+  width: 60%;
+}
+
+/* press */
+.press {
+  position: absolute;
+  top: 106%;
+}
+
+.press-logo {
+  width: 100px;
+  padding-right: 10%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:1200px) {
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  br {
+    display: none;
+  }
+
+  /* navbar */
+  .conteiner-fluid {
+    position: relative;
+  }
+
+  .sidebar {
+    display: block;
+    background-color: white;
+    position: absolute;
+    right: 2px;
+    width: 60%;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .login {
+    text-align: center;
+  }
+
+  .register {
+    display: block;
+    margin: auto;
+    width: 100px;
+  }
+
+  .dropdown-menu {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+  }
+
+  /* title section */
+  .learn-button {
+    display: block;
+    margin: auto;
+    width: 120px;
+  }
+
+  .title-zone {
+    display: grid;
+  }
+
+  .hero-ctn {
+    grid-row: 1;
+  }
+
+  .press {
+    position: static;
+    text-align: center;
+  }
+}
